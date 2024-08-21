@@ -1,0 +1,75 @@
+.anunciado {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #000000aa;
+    color: #fff; 
+    text-align: justify;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.705);
+    z-index: 1000; 
+    font-size: large;
+
+}
+body {
+    background-image: url(casamiento.jpg);
+}
+.esposas {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 54%;
+    left: 49%;
+    background-image: url(casadas.PNG);
+    background-size: cover;
+}
+.xanny {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 62%;
+    left: 30%;
+    background-image: url(xanny.gif);
+    background-size: cover;
+}
+.paris {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 63%;
+    left: 20%;
+    background-image: url(paris.png);
+    background-size: cover;
+}
+.arco {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    background-image: url(arco.PNG);
+    background-size: cover;
+}
+#boton {
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #f7fbfb;
+    background: #9e8347;
+    padding: 15px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(28, 12, 1, 0.5);
+    z-index: 4;
+}
+
+#boton:hover {
+    background: #64e718;
+}

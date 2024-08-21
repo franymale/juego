@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(castillo.gif);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#game-container {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-image: url(suelo.jpg);
+    background-repeat: round;
+    border: 2px solid #000;
+    box-shadow: 0 0 8px #000;
+}
+
+#male {
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    background-image: url('male.png');
+    background-size: cover; /* Asegúrate de que la imagen cubra todo el área del div */
+    top: 50px;
+    left: 50px;
+    z-index: 10;
+}
+
+#key {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url('llave.gif');
+    background-size: cover; /* Asegúrate de que la imagen cubra todo el área del div */
+    top: 80%;
+    left: 80%;
+    z-index: 5;
+}
+
+.obstacle {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background-image: url(bruja.gif);
+    background-size: cover ;
+    z-index: 1;
+    border-radius: 10%;
+}
+

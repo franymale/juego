@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background-image:url('instrucciones.jpg'); 
+    background-size: cover;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #000000bc;
+    color: #fff; 
+    text-align: center;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    z-index: 1000; /* Un z-index alto para asegurar que esté en la parte superior */
+}
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #ffcc00; /* Color del botón que contrasta con el fondo oscuro */
+    color: #000;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #ffaa00; /* Color del botón en hover */
+}
